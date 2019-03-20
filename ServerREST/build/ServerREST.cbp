@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ServerREST"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\Qt\;CMake Files\..\..\..\..\..\opt\Qt\5.12.1\;CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\;CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\;CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\;CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Cutelyst2Qt5\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ServerREST">
+				<Option output="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/libServerREST.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src"/>
+					<Add directory="/home/ethickfox/Документы/RsetApi Server/ServerREST/src"/>
+					<Add directory="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/ServerREST_autogen/include"/>
+					<Add directory="/usr/include/cutelyst2-qt5"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/include"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/include/QtCore"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 ServerREST"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ServerREST/fast">
+				<Option output="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/libServerREST.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src"/>
+					<Add directory="/home/ethickfox/Документы/RsetApi Server/ServerREST/src"/>
+					<Add directory="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/ServerREST_autogen/include"/>
+					<Add directory="/usr/include/cutelyst2-qt5"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/include"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/include/QtCore"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/opt/Qt/5.12.1/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 ServerREST/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ServerREST_autogen">
+				<Option working_dir="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 ServerREST_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ethickfox/Документы/RsetApi\ Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/src/apiv1.cpp">
+			<Option target="ServerREST"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/src/apiv1.h">
+			<Option target="ServerREST"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/src/root.cpp">
+			<Option target="ServerREST"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/src/root.h">
+			<Option target="ServerREST"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/src/serverrest.cpp">
+			<Option target="ServerREST"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/src/serverrest.h">
+			<Option target="ServerREST"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/ServerREST_autogen/mocs_compilation.cpp">
+			<Option target="ServerREST"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../opt/Qt/5.12.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\Qt\5.12.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../usr/lib/x86_64-linux-gnu/cmake/Cutelyst2Qt5/Cutelyst2Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Cutelyst2Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../usr/lib/x86_64-linux-gnu/cmake/Cutelyst2Qt5/Cutelyst2Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Cutelyst2Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../usr/lib/x86_64-linux-gnu/cmake/Cutelyst2Qt5/Cutelyst2Qt5Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Cutelyst2Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/../../../../../usr/lib/x86_64-linux-gnu/cmake/Cutelyst2Qt5/Cutelyst2Qt5Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Cutelyst2Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ethickfox/Документы/RsetApi Server/ServerREST/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
