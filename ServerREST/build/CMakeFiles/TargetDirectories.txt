@@ -1,6 +1,0 @@
-/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/CMakeFiles/rebuild_cache.dir
-/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/CMakeFiles/edit_cache.dir
-/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/CMakeFiles/rebuild_cache.dir
-/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/CMakeFiles/ServerREST.dir
-/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/CMakeFiles/edit_cache.dir
-/home/ethickfox/Документы/RsetApi Server/build-ServerREST-Desktop_Qt_5_12_1_GCC_64bit-u041eu0442u043bu0430u0434u043au0430/src/CMakeFiles/ServerREST_autogen.dir
