@@ -1,6 +1,6 @@
-/home/ethickfox/Документы/RestAPIService/build/CMakeFiles/rebuild_cache.dir
-/home/ethickfox/Документы/RestAPIService/build/CMakeFiles/edit_cache.dir
-/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/rebuild_cache.dir
-/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService.dir
-/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/edit_cache.dir
-/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService_autogen.dir
+/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles/rebuild_cache.dir
+/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles/edit_cache.dir
+/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/rebuild_cache.dir
+/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService.dir
+/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/edit_cache.dir
+/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService_autogen.dir

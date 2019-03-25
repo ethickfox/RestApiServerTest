@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ethickfox/Документы/RestAPIService
+CMAKE_SOURCE_DIR = /home/ethickfox/Документы/RestApiServerTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ethickfox/Документы/RestAPIService/build
+CMAKE_BINARY_DIR = /home/ethickfox/Документы/RestApiServerTest/build
 
 # Utility rule file for RestAPIService_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/ethickfox/Документы/RestAPIService/build
 include src/CMakeFiles/RestAPIService_autogen.dir/progress.make
 
 src/CMakeFiles/RestAPIService_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ethickfox/Документы/RestAPIService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target RestAPIService"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/cmake -E cmake_autogen /home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target RestAPIService"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/cmake -E cmake_autogen /home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService_autogen.dir ""
 
 RestAPIService_autogen: src/CMakeFiles/RestAPIService_autogen
 RestAPIService_autogen: src/CMakeFiles/RestAPIService_autogen.dir/build.make
@@ -68,10 +68,10 @@ src/CMakeFiles/RestAPIService_autogen.dir/build: RestAPIService_autogen
 .PHONY : src/CMakeFiles/RestAPIService_autogen.dir/build
 
 src/CMakeFiles/RestAPIService_autogen.dir/clean:
-	cd /home/ethickfox/Документы/RestAPIService/build/src && $(CMAKE_COMMAND) -P CMakeFiles/RestAPIService_autogen.dir/cmake_clean.cmake
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && $(CMAKE_COMMAND) -P CMakeFiles/RestAPIService_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/RestAPIService_autogen.dir/clean
 
 src/CMakeFiles/RestAPIService_autogen.dir/depend:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ethickfox/Документы/RestAPIService /home/ethickfox/Документы/RestAPIService/src /home/ethickfox/Документы/RestAPIService/build /home/ethickfox/Документы/RestAPIService/build/src /home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ethickfox/Документы/RestApiServerTest /home/ethickfox/Документы/RestApiServerTest/src /home/ethickfox/Документы/RestApiServerTest/build /home/ethickfox/Документы/RestApiServerTest/build/src /home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/RestAPIService_autogen.dir/depend
 

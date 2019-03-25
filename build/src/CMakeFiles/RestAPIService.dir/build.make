@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ethickfox/Документы/RestAPIService
+CMAKE_SOURCE_DIR = /home/ethickfox/Документы/RestApiServerTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ethickfox/Документы/RestAPIService/build
+CMAKE_BINARY_DIR = /home/ethickfox/Документы/RestApiServerTest/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/RestAPIService.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/RestAPIService.dir/flags.make
 
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: ../src/apiv1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestAPIService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/apiv1.cpp.o -c /home/ethickfox/Документы/RestAPIService/src/apiv1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/apiv1.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp
 
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RestAPIService.dir/apiv1.cpp.i"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestAPIService/src/apiv1.cpp > CMakeFiles/RestAPIService.dir/apiv1.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp > CMakeFiles/RestAPIService.dir/apiv1.cpp.i
 
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RestAPIService.dir/apiv1.cpp.s"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestAPIService/src/apiv1.cpp -o CMakeFiles/RestAPIService.dir/apiv1.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp -o CMakeFiles/RestAPIService.dir/apiv1.cpp.s
 
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.provides.build: src/CMakeFiles/Res
 
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: ../src/restapiservice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestAPIService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/restapiservice.cpp.o -c /home/ethickfox/Документы/RestAPIService/src/restapiservice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/restapiservice.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp
 
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RestAPIService.dir/restapiservice.cpp.i"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestAPIService/src/restapiservice.cpp > CMakeFiles/RestAPIService.dir/restapiservice.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp > CMakeFiles/RestAPIService.dir/restapiservice.cpp.i
 
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RestAPIService.dir/restapiservice.cpp.s"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestAPIService/src/restapiservice.cpp -o CMakeFiles/RestAPIService.dir/restapiservice.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp -o CMakeFiles/RestAPIService.dir/restapiservice.cpp.s
 
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o.provides.build: src/CMake
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
 src/CMakeFiles/RestAPIService.dir/root.cpp.o: ../src/root.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestAPIService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/RestAPIService.dir/root.cpp.o"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/root.cpp.o -c /home/ethickfox/Документы/RestAPIService/src/root.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/RestAPIService.dir/root.cpp.o"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/root.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/src/root.cpp
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RestAPIService.dir/root.cpp.i"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestAPIService/src/root.cpp > CMakeFiles/RestAPIService.dir/root.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestApiServerTest/src/root.cpp > CMakeFiles/RestAPIService.dir/root.cpp.i
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RestAPIService.dir/root.cpp.s"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestAPIService/src/root.cpp -o CMakeFiles/RestAPIService.dir/root.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestApiServerTest/src/root.cpp -o CMakeFiles/RestAPIService.dir/root.cpp.s
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/RestAPIService.dir/root.cpp.o.provides.build: src/CMakeFiles/Rest
 
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: src/RestAPIService_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestAPIService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o -c /home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.i"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/mocs_compilation.cpp > CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/mocs_compilation.cpp > CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.i
 
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/mocs_compilation.cpp -o CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/mocs_compilation.cpp -o CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s
 
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o.requires:
 
@@ -172,8 +172,8 @@ src/libRestAPIService.so: /usr/lib/x86_64-linux-gnu/libCutelyst2Qt5.so.2.8.0
 src/libRestAPIService.so: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.9.5
 src/libRestAPIService.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 src/libRestAPIService.so: src/CMakeFiles/RestAPIService.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ethickfox/Документы/RestAPIService/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libRestAPIService.so"
-	cd /home/ethickfox/Документы/RestAPIService/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RestAPIService.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libRestAPIService.so"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RestAPIService.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/RestAPIService.dir/build: src/libRestAPIService.so
@@ -188,10 +188,10 @@ src/CMakeFiles/RestAPIService.dir/requires: src/CMakeFiles/RestAPIService.dir/Re
 .PHONY : src/CMakeFiles/RestAPIService.dir/requires
 
 src/CMakeFiles/RestAPIService.dir/clean:
-	cd /home/ethickfox/Документы/RestAPIService/build/src && $(CMAKE_COMMAND) -P CMakeFiles/RestAPIService.dir/cmake_clean.cmake
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && $(CMAKE_COMMAND) -P CMakeFiles/RestAPIService.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/RestAPIService.dir/clean
 
 src/CMakeFiles/RestAPIService.dir/depend:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ethickfox/Документы/RestAPIService /home/ethickfox/Документы/RestAPIService/src /home/ethickfox/Документы/RestAPIService/build /home/ethickfox/Документы/RestAPIService/build/src /home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ethickfox/Документы/RestApiServerTest /home/ethickfox/Документы/RestApiServerTest/src /home/ethickfox/Документы/RestApiServerTest/build /home/ethickfox/Документы/RestApiServerTest/build/src /home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/RestAPIService.dir/depend
 

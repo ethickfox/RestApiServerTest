@@ -13,7 +13,7 @@ public:
     Q_INVOKABLE explicit RestAPIService(QObject *parent = nullptr);
     ~RestAPIService();
 
-    bool init();
+    bool init() override final;
 };
 
 #endif //RESTAPISERVICE_H

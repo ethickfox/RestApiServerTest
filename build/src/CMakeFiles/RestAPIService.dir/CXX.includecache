@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/EWIEGA46WW/moc_apiv1.cpp
+/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_apiv1.cpp
 ../../../../src/apiv1.h
-/home/ethickfox/Документы/RestAPIService/src/apiv1.h
+/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/EWIEGA46WW/moc_restapiservice.cpp
+/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_restapiservice.cpp
 ../../../../src/restapiservice.h
-/home/ethickfox/Документы/RestAPIService/src/restapiservice.h
+/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -24,45 +24,57 @@ QtCore/qmetatype.h
 QtCore/qplugin.h
 -
 
-/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/EWIEGA46WW/moc_root.cpp
+/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_root.cpp
 ../../../../src/root.h
-/home/ethickfox/Документы/RestAPIService/src/root.h
+/home/ethickfox/Документы/RestApiServerTest/src/root.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/mocs_compilation.cpp
+/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_apiv1.cpp
-/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/EWIEGA46WW/moc_apiv1.cpp
+/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_apiv1.cpp
 EWIEGA46WW/moc_restapiservice.cpp
-/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/EWIEGA46WW/moc_restapiservice.cpp
+/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_restapiservice.cpp
 EWIEGA46WW/moc_root.cpp
-/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/EWIEGA46WW/moc_root.cpp
+/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_root.cpp
 
-/home/ethickfox/Документы/RestAPIService/src/apiv1.cpp
+/home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp
 apiv1.h
-/home/ethickfox/Документы/RestAPIService/src/apiv1.h
+/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
 
-/home/ethickfox/Документы/RestAPIService/src/apiv1.h
+/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
 Cutelyst/Controller
 -
+QDebug
+-
+QSettings
+-
+QJsonArray
+-
+QUuid
+-
+QJsonObject
+-
+QJsonDocument
+-
 
-/home/ethickfox/Документы/RestAPIService/src/restapiservice.cpp
+/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp
 restapiservice.h
-/home/ethickfox/Документы/RestAPIService/src/restapiservice.h
-root.h
-/home/ethickfox/Документы/RestAPIService/src/root.h
+/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.h
+apiv1.h
+/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
 
-/home/ethickfox/Документы/RestAPIService/src/restapiservice.h
+/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.h
 Cutelyst/Application
 -
 
-/home/ethickfox/Документы/RestAPIService/src/root.cpp
+/home/ethickfox/Документы/RestApiServerTest/src/root.cpp
 root.h
-/home/ethickfox/Документы/RestAPIService/src/root.h
+/home/ethickfox/Документы/RestApiServerTest/src/root.h
 
-/home/ethickfox/Документы/RestAPIService/src/root.h
+/home/ethickfox/Документы/RestApiServerTest/src/root.h
 Cutelyst/Controller
 -
 
@@ -180,9 +192,25 @@ Cutelyst/headers.h
 qdatetime.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
 qiodevice.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
+qjsonarray.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
+qjsondocument.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
+qjsonobject.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QLocale
 qlocale.h
@@ -204,6 +232,10 @@ qmetatype.h
 qobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
+qsettings.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QStack
 qstack.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstack.h
@@ -219,6 +251,10 @@ qstringlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
 qurl.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QUuid
+quuid.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -476,6 +512,18 @@ QtCore/qstring.h
 QtCore/qglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+QtCore/qjsonvalue.h
+-
+QtCore/qiterator.h
+-
+initializer_list
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+QtCore/qjsonvalue.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
 QtCore/qjsonvalue.h
 -
@@ -686,6 +734,18 @@ initializer_list
 iterator
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h
+QtCore/qobject.h
+-
+QtCore/qvariant.h
+-
+QtCore/qstring.h
+-
+QtCore/qscopedpointer.h
+-
+ctype.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
 QtCore/qglobal.h
 -
@@ -822,6 +882,10 @@ QtCore/qshareddata.h
 QtCore/qurl.h
 -
 QtCore/qstringlist.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h
+QtCore/qstring.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h

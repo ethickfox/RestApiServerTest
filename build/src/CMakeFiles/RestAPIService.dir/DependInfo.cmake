@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ethickfox/Документы/RestAPIService/build/src/RestAPIService_autogen/mocs_compilation.cpp" "/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o"
-  "/home/ethickfox/Документы/RestAPIService/src/apiv1.cpp" "/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o"
-  "/home/ethickfox/Документы/RestAPIService/src/restapiservice.cpp" "/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o"
-  "/home/ethickfox/Документы/RestAPIService/src/root.cpp" "/home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/RestAPIService.dir/root.cpp.o"
+  "/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/mocs_compilation.cpp" "/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o"
+  "/home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp" "/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o"
+  "/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp" "/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o"
+  "/home/ethickfox/Документы/RestApiServerTest/src/root.cpp" "/home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/RestAPIService.dir/root.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

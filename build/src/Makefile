@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ethickfox/Документы/RestAPIService
+CMAKE_SOURCE_DIR = /home/ethickfox/Документы/RestApiServerTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ethickfox/Документы/RestAPIService/build
+CMAKE_BINARY_DIR = /home/ethickfox/Документы/RestApiServerTest/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ethickfox/Документы/RestAPIService/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ethickfox/Документы/RestAPIService/build/CMakeFiles /home/ethickfox/Документы/RestAPIService/build/src/CMakeFiles/progress.marks
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethickfox/Документы/RestAPIService/build/CMakeFiles 0
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles /home/ethickfox/Документы/RestApiServerTest/build/src/CMakeFiles/progress.marks
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/RestAPIService.dir/rule:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/RestAPIService.dir/rule
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/RestAPIService.dir/rule
 .PHONY : src/CMakeFiles/RestAPIService.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ RestAPIService: src/CMakeFiles/RestAPIService.dir/rule
 
 # fast build rule for target.
 RestAPIService/fast:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/build
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/build
 .PHONY : RestAPIService/fast
 
 # Convenience name for target.
 src/CMakeFiles/RestAPIService_autogen.dir/rule:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/RestAPIService_autogen.dir/rule
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/RestAPIService_autogen.dir/rule
 .PHONY : src/CMakeFiles/RestAPIService_autogen.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ RestAPIService_autogen: src/CMakeFiles/RestAPIService_autogen.dir/rule
 
 # fast build rule for target.
 RestAPIService_autogen/fast:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService_autogen.dir/build.make src/CMakeFiles/RestAPIService_autogen.dir/build
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService_autogen.dir/build.make src/CMakeFiles/RestAPIService_autogen.dir/build
 .PHONY : RestAPIService_autogen/fast
 
 RestAPIService_autogen/mocs_compilation.o: RestAPIService_autogen/mocs_compilation.cpp.o
@@ -146,7 +146,7 @@ RestAPIService_autogen/mocs_compilation.o: RestAPIService_autogen/mocs_compilati
 
 # target to build an object file
 RestAPIService_autogen/mocs_compilation.cpp.o:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o
 .PHONY : RestAPIService_autogen/mocs_compilation.cpp.o
 
 RestAPIService_autogen/mocs_compilation.i: RestAPIService_autogen/mocs_compilation.cpp.i
@@ -155,7 +155,7 @@ RestAPIService_autogen/mocs_compilation.i: RestAPIService_autogen/mocs_compilati
 
 # target to preprocess a source file
 RestAPIService_autogen/mocs_compilation.cpp.i:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.i
 .PHONY : RestAPIService_autogen/mocs_compilation.cpp.i
 
 RestAPIService_autogen/mocs_compilation.s: RestAPIService_autogen/mocs_compilation.cpp.s
@@ -164,7 +164,7 @@ RestAPIService_autogen/mocs_compilation.s: RestAPIService_autogen/mocs_compilati
 
 # target to generate assembly for a file
 RestAPIService_autogen/mocs_compilation.cpp.s:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s
 .PHONY : RestAPIService_autogen/mocs_compilation.cpp.s
 
 apiv1.o: apiv1.cpp.o
@@ -173,7 +173,7 @@ apiv1.o: apiv1.cpp.o
 
 # target to build an object file
 apiv1.cpp.o:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
 .PHONY : apiv1.cpp.o
 
 apiv1.i: apiv1.cpp.i
@@ -182,7 +182,7 @@ apiv1.i: apiv1.cpp.i
 
 # target to preprocess a source file
 apiv1.cpp.i:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.i
 .PHONY : apiv1.cpp.i
 
 apiv1.s: apiv1.cpp.s
@@ -191,7 +191,7 @@ apiv1.s: apiv1.cpp.s
 
 # target to generate assembly for a file
 apiv1.cpp.s:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.s
 .PHONY : apiv1.cpp.s
 
 restapiservice.o: restapiservice.cpp.o
@@ -200,7 +200,7 @@ restapiservice.o: restapiservice.cpp.o
 
 # target to build an object file
 restapiservice.cpp.o:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o
 .PHONY : restapiservice.cpp.o
 
 restapiservice.i: restapiservice.cpp.i
@@ -209,7 +209,7 @@ restapiservice.i: restapiservice.cpp.i
 
 # target to preprocess a source file
 restapiservice.cpp.i:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.i
 .PHONY : restapiservice.cpp.i
 
 restapiservice.s: restapiservice.cpp.s
@@ -218,7 +218,7 @@ restapiservice.s: restapiservice.cpp.s
 
 # target to generate assembly for a file
 restapiservice.cpp.s:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.s
 .PHONY : restapiservice.cpp.s
 
 root.o: root.cpp.o
@@ -227,7 +227,7 @@ root.o: root.cpp.o
 
 # target to build an object file
 root.cpp.o:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/root.cpp.o
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/root.cpp.o
 .PHONY : root.cpp.o
 
 root.i: root.cpp.i
@@ -236,7 +236,7 @@ root.i: root.cpp.i
 
 # target to preprocess a source file
 root.cpp.i:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/root.cpp.i
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/root.cpp.i
 .PHONY : root.cpp.i
 
 root.s: root.cpp.s
@@ -245,7 +245,7 @@ root.s: root.cpp.s
 
 # target to generate assembly for a file
 root.cpp.s:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/root.cpp.s
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/root.cpp.s
 .PHONY : root.cpp.s
 
 # Help Target
@@ -281,6 +281,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ethickfox/Документы/RestAPIService/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
