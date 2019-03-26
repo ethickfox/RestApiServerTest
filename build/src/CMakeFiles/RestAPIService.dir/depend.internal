@@ -114,6 +114,9 @@ src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
  /home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp
  /home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
@@ -216,6 +219,9 @@ src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o
  /home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
  /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp
@@ -323,6 +329,9 @@ src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 src/CMakeFiles/RestAPIService.dir/root.cpp.o
  /home/ethickfox/Документы/RestApiServerTest/src/root.cpp
  /home/ethickfox/Документы/RestApiServerTest/src/root.h

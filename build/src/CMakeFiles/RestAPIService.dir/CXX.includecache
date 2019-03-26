@@ -59,6 +59,8 @@ QJsonObject
 -
 QJsonDocument
 -
+QtSerialPort/QSerialPortInfo
+-
 
 /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp
 restapiservice.h
@@ -960,5 +962,23 @@ QtCore/qpoint.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 QtCore/qglobal.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+qserialportinfo.h
+/usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+QtCore/qstring.h
+-
+QtCore/qglobal.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
+QtCore/qlist.h
+-
+QtCore/qscopedpointer.h
+-
+QtSerialPort/qserialportglobal.h
 -
 

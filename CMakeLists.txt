@@ -14,6 +14,10 @@ endif()
 
 find_package(Qt5 COMPONENTS Core Network REQUIRED)
 find_package(Cutelyst2Qt5 REQUIRED)
+#find_package(Qt5 COMPONENTS  Serialport  REQUIRED)
+
+#find_package( REQUIRED)
+#qt5_use_modules(RestAPIService Widgets)
 
 # Auto generate moc files
 set(CMAKE_AUTOMOC ON)

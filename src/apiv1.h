@@ -8,6 +8,7 @@
 #include <QUuid>
 #include <QJsonObject>
 #include <QJsonDocument>
+#include <QtSerialPort/QSerialPortInfo>
 
 
 using namespace Cutelyst;

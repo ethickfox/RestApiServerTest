@@ -113,6 +113,9 @@ src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o:
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: ../src/apiv1.cpp
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: ../src/apiv1.h
@@ -215,6 +218,9 @@ src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: /usr/include/x86_64-linux-gnu/qt5
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: ../src/apiv1.h
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: ../src/restapiservice.cpp
@@ -322,6 +328,9 @@ src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: /usr/include/x86_64-linu
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.o: ../src/root.cpp
 src/CMakeFiles/RestAPIService.dir/root.cpp.o: ../src/root.h

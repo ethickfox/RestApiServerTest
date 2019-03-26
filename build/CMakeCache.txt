@@ -191,11 +191,35 @@ QT_QMAKE_EXECUTABLE:STRING=
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 
+//The directory containing a CMake configuration file for Qt5Declarative.
+Qt5Declarative_DIR:PATH=Qt5Declarative_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
+
 //The directory containing a CMake configuration file for Qt5Network.
 Qt5Network_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Network
 
+//The directory containing a CMake configuration file for Qt5QSerialPortInfo.
+Qt5QSerialPortInfo_DIR:PATH=Qt5QSerialPortInfo_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5SerialPortInfo.
+Qt5SerialPortInfo_DIR:PATH=Qt5SerialPortInfo_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5SerialportConfig.
+Qt5SerialportConfig_DIR:PATH=Qt5SerialportConfig_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Serialport.
+Qt5Serialport_DIR:PATH=Qt5Serialport_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
+
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
+
+//The directory containing a CMake configuration file for Qt5serialport.
+Qt5serialport_DIR:PATH=Qt5serialport_DIR-NOTFOUND
 
 //Value Computed by CMake
 RestAPIService_BINARY_DIR:STATIC=/home/ethickfox/Документы/RestApiServerTest/build
@@ -205,6 +229,9 @@ RestAPIService_LIB_DEPENDS:STATIC=general;Cutelyst::Core;general;Qt5::Core;gener
 
 //Value Computed by CMake
 RestAPIService_SOURCE_DIR:STATIC=/home/ethickfox/Документы/RestApiServerTest
+
+//The directory containing a CMake configuration file for libqt5serialport5.
+libqt5serialport5_DIR:PATH=libqt5serialport5_DIR-NOTFOUND
 
 
 ########################
