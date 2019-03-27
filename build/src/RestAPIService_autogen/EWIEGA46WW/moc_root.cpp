@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Root_t {
-    QByteArrayData data[11];
-    char stringdata0[99];
+    QByteArrayData data[9];
+    char stringdata0[66];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -38,16 +38,12 @@ QT_MOC_LITERAL(3, 16, 5), // "index"
 QT_MOC_LITERAL(4, 22, 14), // ":Path:AutoArgs"
 QT_MOC_LITERAL(5, 37, 11), // "defaultPage"
 QT_MOC_LITERAL(6, 49, 5), // ":Path"
-QT_MOC_LITERAL(7, 55, 3), // "End"
-QT_MOC_LITERAL(8, 59, 28), // ":ActionClass(\"RenderView\")"
-QT_MOC_LITERAL(9, 86, 8), // "Context*"
-QT_MOC_LITERAL(10, 95, 1) // "c"
+QT_MOC_LITERAL(7, 55, 8), // "Context*"
+QT_MOC_LITERAL(8, 64, 1) // "c"
 
     },
     "Root\0Namespace\0\0index\0:Path:AutoArgs\0"
-    "defaultPage\0:Path\0End\0"
-    ":ActionClass(\"RenderView\")\0Context*\0"
-    "c"
+    "defaultPage\0:Path\0Context*\0c"
 };
 #undef QT_MOC_LITERAL
 
@@ -56,8 +52,8 @@ static const uint qt_meta_data_Root[] = {
  // content:
        7,       // revision
        0,       // classname
-       4,   14, // classinfo
-       3,   22, // methods
+       3,   14, // classinfo
+       2,   20, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -68,17 +64,14 @@ static const uint qt_meta_data_Root[] = {
        1,    2,
        3,    4,
        5,    6,
-       7,    8,
 
  // methods: name, argc, parameters, tag, flags
-       3,    1,   37,    2, 0x02 /* Public */,
-       5,    1,   40,    2, 0x02 /* Public */,
-       7,    1,   43,    2, 0x00 /* Private */,
+       3,    1,   30,    2, 0x02 /* Public */,
+       5,    1,   33,    2, 0x02 /* Public */,
 
  // methods: parameters
-    QMetaType::Void, 0x80000000 | 9,   10,
-    QMetaType::Void, 0x80000000 | 9,   10,
-    QMetaType::Void, 0x80000000 | 9,   10,
+    QMetaType::Void, 0x80000000 | 7,    8,
+    QMetaType::Void, 0x80000000 | 7,    8,
 
        0        // eod
 };
@@ -91,7 +84,6 @@ void Root::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         switch (_id) {
         case 0: _t->index((*reinterpret_cast< Context*(*)>(_a[1]))); break;
         case 1: _t->defaultPage((*reinterpret_cast< Context*(*)>(_a[1]))); break;
-        case 2: _t->End((*reinterpret_cast< Context*(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -105,13 +97,6 @@ void Root::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
             }
             break;
         case 1:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
-            case 0:
-                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< Context* >(); break;
-            }
-            break;
-        case 2:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<int*>(_a[0]) = -1; break;
             case 0:
@@ -147,13 +132,13 @@ int Root::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 2;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 2;
     }
     return _id;
 }

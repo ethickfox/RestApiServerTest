@@ -12,7 +12,15 @@ Root::~Root()
 
 void Root::index(Context *c)
 {
-    c->response()->body() = "Welcome to Cutelyst!";
+    QByteArray message;
+    QList<QNetworkInterface> interfaces =  QNetworkInterface::allInterfaces();
+    message.append("<p>Ports:</p>");
+    message.append("<ul>");
+    for(QNetworkInterface interface: interfaces){
+        message.append("<li>" + interface.humanReadableName()+ "</li>");
+    }
+    message.append("</ul>");
+    c->response()->body() = message;
 }
 
 void Root::defaultPage(Context *c)

@@ -57,33 +57,9 @@ include src/CMakeFiles/RestAPIService.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/RestAPIService.dir/flags.make
 
-src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
-src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o: ../src/apiv1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o"
-	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/apiv1.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp
-
-src/CMakeFiles/RestAPIService.dir/apiv1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RestAPIService.dir/apiv1.cpp.i"
-	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp > CMakeFiles/RestAPIService.dir/apiv1.cpp.i
-
-src/CMakeFiles/RestAPIService.dir/apiv1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RestAPIService.dir/apiv1.cpp.s"
-	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp -o CMakeFiles/RestAPIService.dir/apiv1.cpp.s
-
-src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.requires
-
-src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.provides: src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.provides.build
-.PHONY : src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.provides
-
-src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.provides.build: src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
-
-
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o: ../src/restapiservice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o"
 	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/restapiservice.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp
 
 src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.i: cmake_force
@@ -107,7 +83,7 @@ src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o.provides.build: src/CMake
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
 src/CMakeFiles/RestAPIService.dir/root.cpp.o: ../src/root.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/RestAPIService.dir/root.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/RestAPIService.dir/root.cpp.o"
 	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/root.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/src/root.cpp
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.i: cmake_force
@@ -127,6 +103,30 @@ src/CMakeFiles/RestAPIService.dir/root.cpp.o.provides: src/CMakeFiles/RestAPISer
 .PHONY : src/CMakeFiles/RestAPIService.dir/root.cpp.o.provides
 
 src/CMakeFiles/RestAPIService.dir/root.cpp.o.provides.build: src/CMakeFiles/RestAPIService.dir/root.cpp.o
+
+
+src/CMakeFiles/RestAPIService.dir/service.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
+src/CMakeFiles/RestAPIService.dir/service.cpp.o: ../src/service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/RestAPIService.dir/service.cpp.o"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RestAPIService.dir/service.cpp.o -c /home/ethickfox/Документы/RestApiServerTest/src/service.cpp
+
+src/CMakeFiles/RestAPIService.dir/service.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RestAPIService.dir/service.cpp.i"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ethickfox/Документы/RestApiServerTest/src/service.cpp > CMakeFiles/RestAPIService.dir/service.cpp.i
+
+src/CMakeFiles/RestAPIService.dir/service.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RestAPIService.dir/service.cpp.s"
+	cd /home/ethickfox/Документы/RestApiServerTest/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ethickfox/Документы/RestApiServerTest/src/service.cpp -o CMakeFiles/RestAPIService.dir/service.cpp.s
+
+src/CMakeFiles/RestAPIService.dir/service.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RestAPIService.dir/service.cpp.o.requires
+
+src/CMakeFiles/RestAPIService.dir/service.cpp.o.provides: src/CMakeFiles/RestAPIService.dir/service.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/service.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RestAPIService.dir/service.cpp.o.provides
+
+src/CMakeFiles/RestAPIService.dir/service.cpp.o.provides.build: src/CMakeFiles/RestAPIService.dir/service.cpp.o
 
 
 src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o: src/CMakeFiles/RestAPIService.dir/flags.make
@@ -155,17 +155,17 @@ src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o.
 
 # Object files for target RestAPIService
 RestAPIService_OBJECTS = \
-"CMakeFiles/RestAPIService.dir/apiv1.cpp.o" \
 "CMakeFiles/RestAPIService.dir/restapiservice.cpp.o" \
 "CMakeFiles/RestAPIService.dir/root.cpp.o" \
+"CMakeFiles/RestAPIService.dir/service.cpp.o" \
 "CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o"
 
 # External object files for target RestAPIService
 RestAPIService_EXTERNAL_OBJECTS =
 
-src/libRestAPIService.so: src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
 src/libRestAPIService.so: src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o
 src/libRestAPIService.so: src/CMakeFiles/RestAPIService.dir/root.cpp.o
+src/libRestAPIService.so: src/CMakeFiles/RestAPIService.dir/service.cpp.o
 src/libRestAPIService.so: src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o
 src/libRestAPIService.so: src/CMakeFiles/RestAPIService.dir/build.make
 src/libRestAPIService.so: /usr/lib/x86_64-linux-gnu/libCutelyst2Qt5.so.2.8.0
@@ -180,9 +180,9 @@ src/CMakeFiles/RestAPIService.dir/build: src/libRestAPIService.so
 
 .PHONY : src/CMakeFiles/RestAPIService.dir/build
 
-src/CMakeFiles/RestAPIService.dir/requires: src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o.requires
 src/CMakeFiles/RestAPIService.dir/requires: src/CMakeFiles/RestAPIService.dir/restapiservice.cpp.o.requires
 src/CMakeFiles/RestAPIService.dir/requires: src/CMakeFiles/RestAPIService.dir/root.cpp.o.requires
+src/CMakeFiles/RestAPIService.dir/requires: src/CMakeFiles/RestAPIService.dir/service.cpp.o.requires
 src/CMakeFiles/RestAPIService.dir/requires: src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.o.requires
 
 .PHONY : src/CMakeFiles/RestAPIService.dir/requires

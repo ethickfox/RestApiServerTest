@@ -3,6 +3,10 @@
 
 #include <Cutelyst/Application>
 
+
+#include "root.h"
+#include "service.h"
+
 using namespace Cutelyst;
 
 class RestAPIService : public Application

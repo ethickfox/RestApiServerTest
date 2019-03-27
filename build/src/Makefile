@@ -167,33 +167,6 @@ RestAPIService_autogen/mocs_compilation.cpp.s:
 	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s
 .PHONY : RestAPIService_autogen/mocs_compilation.cpp.s
 
-apiv1.o: apiv1.cpp.o
-
-.PHONY : apiv1.o
-
-# target to build an object file
-apiv1.cpp.o:
-	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
-.PHONY : apiv1.cpp.o
-
-apiv1.i: apiv1.cpp.i
-
-.PHONY : apiv1.i
-
-# target to preprocess a source file
-apiv1.cpp.i:
-	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.i
-.PHONY : apiv1.cpp.i
-
-apiv1.s: apiv1.cpp.s
-
-.PHONY : apiv1.s
-
-# target to generate assembly for a file
-apiv1.cpp.s:
-	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.s
-.PHONY : apiv1.cpp.s
-
 restapiservice.o: restapiservice.cpp.o
 
 .PHONY : restapiservice.o
@@ -248,6 +221,33 @@ root.cpp.s:
 	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/root.cpp.s
 .PHONY : root.cpp.s
 
+service.o: service.cpp.o
+
+.PHONY : service.o
+
+# target to build an object file
+service.cpp.o:
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/service.cpp.o
+.PHONY : service.cpp.o
+
+service.i: service.cpp.i
+
+.PHONY : service.i
+
+# target to preprocess a source file
+service.cpp.i:
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/service.cpp.i
+.PHONY : service.cpp.i
+
+service.s: service.cpp.s
+
+.PHONY : service.s
+
+# target to generate assembly for a file
+service.cpp.s:
+	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/service.cpp.s
+.PHONY : service.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,15 +261,15 @@ help:
 	@echo "... RestAPIService_autogen/mocs_compilation.o"
 	@echo "... RestAPIService_autogen/mocs_compilation.i"
 	@echo "... RestAPIService_autogen/mocs_compilation.s"
-	@echo "... apiv1.o"
-	@echo "... apiv1.i"
-	@echo "... apiv1.s"
 	@echo "... restapiservice.o"
 	@echo "... restapiservice.i"
 	@echo "... restapiservice.s"
 	@echo "... root.o"
 	@echo "... root.i"
 	@echo "... root.s"
+	@echo "... service.o"
+	@echo "... service.i"
+	@echo "... service.s"
 .PHONY : help
 
 

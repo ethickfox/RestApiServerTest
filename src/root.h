@@ -2,6 +2,9 @@
 #define ROOT_H
 
 #include <Cutelyst/Controller>
+#include <QtSerialPort/QSerialPortInfo>
+#include <QNetworkInterface>
+
 
 using namespace Cutelyst;
 
@@ -20,8 +23,8 @@ public:
     void defaultPage(Context *c);
 
 private:
-    C_ATTR(End, :ActionClass("RenderView"))
-    void End(Context *c) { Q_UNUSED(c); }
+//    C_ATTR(End, :ActionClass("RenderView"))
+//    void End(Context *c) { Q_UNUSED(c); }
 };
 
 #endif //ROOT_H
