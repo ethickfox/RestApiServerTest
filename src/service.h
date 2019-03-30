@@ -8,8 +8,9 @@
 #include <QUuid>
 #include <QJsonObject>
 #include <QJsonDocument>
-#include <QtSerialPort/QSerialPortInfo>
+#include <QNetworkInterface>
 
+#include "version.h"
 
 using namespace Cutelyst;
 
@@ -20,27 +21,33 @@ public:
     explicit Service(QObject *parent = nullptr);
     ~Service();
 
-    C_ATTR(users, :Local :AutoArgs :ActionClass(REST))
-    void users(Context *c);
+//main
+    C_ATTR(index, :Path :AutoArgs)
+    void index(Context *c);
 
-    C_ATTR(users_GET, :Private)
-    void users_GET(Context *c);
+//ports
+    C_ATTR(ports, :Local :AutoArgs :ActionClass(REST))
+    void ports(Context *c);
+
+    C_ATTR(ports_GET, :Private)
+    void ports_GET(Context *c);
+
+    C_ATTR(ports_uuid, :Path('ports') :AutoArgs :ActionClass(REST))
+    void ports_uuid(Context *c, const QString &uuid);
+
+    C_ATTR(ports_uuid_GET, :Private)
+    void ports_uuid_GET(Context *c, const QString &uuid);
+
+//version
+    C_ATTR(version, :Local :AutoArgs :ActionClass(REST))
+    void version(Context *c);
+
+    C_ATTR(version_GET, :Private)
+    void version_GET(Context *c);
 
     C_ATTR(users_POST, :Private)
-    void users_POST(Context *c);
-
-    C_ATTR(users_uuid, :Path('users') :AutoArgs :ActionClass(REST))
-    void users_uuid(Context *c, const QString &uuid);
-
-    C_ATTR(users_uuid_GET, :Private)
-    void users_uuid_GET(Context *c, const QString &uuid);
-
-    C_ATTR(users_uuid_PUT, :Private)
-    void users_uuid_PUT(Context *c, const QString &uuid);
-
-    C_ATTR(users_uuid_DELETE, :Private)
-    void users_uuid_DELETE(Context *c, const QString &uuid);
+    void version_POST(Context *c);
 };
 
-#endif //Service_H
+#endif //SERVICE_H
 

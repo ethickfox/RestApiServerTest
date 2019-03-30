@@ -85,7 +85,7 @@ src/preinstall:
 src/CMakeFiles/RestAPIService.dir/all: src/CMakeFiles/RestAPIService_autogen.dir/all
 	$(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/depend
 	$(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target RestAPIService"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target RestAPIService"
 .PHONY : src/CMakeFiles/RestAPIService.dir/all
 
 # Include target in all.
@@ -95,7 +95,7 @@ all: src/CMakeFiles/RestAPIService.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/RestAPIService.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/RestAPIService.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/RestAPIService.dir/rule
@@ -122,7 +122,7 @@ clean: src/CMakeFiles/RestAPIService.dir/clean
 src/CMakeFiles/RestAPIService_autogen.dir/all:
 	$(MAKE) -f src/CMakeFiles/RestAPIService_autogen.dir/build.make src/CMakeFiles/RestAPIService_autogen.dir/depend
 	$(MAKE) -f src/CMakeFiles/RestAPIService_autogen.dir/build.make src/CMakeFiles/RestAPIService_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=6 "Built target RestAPIService_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ethickfox/Документы/RestApiServerTest/build/CMakeFiles --progress-num=7 "Built target RestAPIService_autogen"
 .PHONY : src/CMakeFiles/RestAPIService_autogen.dir/all
 
 # Build rule for subdir invocation for target.

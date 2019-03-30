@@ -7,8 +7,8 @@ set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/ethickfox/Документы/RestApiServe
 set(AM_CMAKE_CURRENT_BINARY_DIR "/home/ethickfox/Документы/RestApiServerTest/build/src/")
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen")
-set(AM_SOURCES "/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp;/home/ethickfox/Документы/RestApiServerTest/src/root.cpp;/home/ethickfox/Документы/RestApiServerTest/src/service.cpp")
-set(AM_HEADERS "/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.h;/home/ethickfox/Документы/RestApiServerTest/src/root.h;/home/ethickfox/Документы/RestApiServerTest/src/service.h")
+set(AM_SOURCES "/home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp;/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp;/home/ethickfox/Документы/RestApiServerTest/src/root.cpp;/home/ethickfox/Документы/RestApiServerTest/src/service.cpp")
+set(AM_HEADERS "/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h;/home/ethickfox/Документы/RestApiServerTest/src/restapiservice.h;/home/ethickfox/Документы/RestApiServerTest/src/root.h;/home/ethickfox/Документы/RestApiServerTest/src/service.h;/home/ethickfox/Документы/RestApiServerTest/src/version.h")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")
 set(AM_QT_VERSION_MINOR "9")

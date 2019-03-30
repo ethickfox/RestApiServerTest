@@ -10,111 +10,105 @@ Service::~Service()
 {
 }
 
-
-
-void Service::users(Context *c)
+void Service::index(Context *c)
 {
-    qDebug() << Q_FUNC_INFO;
+    c->response()->body() = "Matched Controller::Service in Service.";
 }
 
-void Service::users_GET(Context *c)
+void Service::ports(Context *c)
+{
+
+}
+
+void Service::ports_GET(Context *c)
 {
     qDebug() << Q_FUNC_INFO;
-    QSettings s;
-    const QStringList uuids = s.childGroups();
-    QList<QSerialPortInfo> comPorts = QSerialPortInfo::availablePorts();
-    QStringList portsNames;
-//    = comPorts.toStdList()
-    for(QSerialPortInfo port : comPorts){
-        portsNames.append(port.portName()+" "+port.productIdentifier());
+
+    QStringList message;
+    QList<QNetworkInterface> interfaces =  QNetworkInterface::allInterfaces();
+
+    for(QNetworkInterface interface: interfaces){
+        message.append(interface.humanReadableName());
     }
-    c->response()->setJsonArrayBody(QJsonArray::fromStringList(portsNames));
+    c->response()->setJsonArrayBody(QJsonArray::fromStringList(message));
 }
 
-void Service::users_POST(Context *c)
-{
-    qDebug() << Q_FUNC_INFO;
-    const QString uuid = QUuid::createUuid().toString()
-            .remove(QLatin1Char('{'))
-            .remove(QLatin1Char('}'));
-    users_uuid_PUT(c, uuid);
-}
-
-void Service::users_uuid(Context *c, const QString &uuid)
+void Service::ports_uuid(Context *c, const QString &uuid)
 {
     qDebug() << Q_FUNC_INFO << uuid;
+}
+
+void Service::ports_uuid_GET(Context *c, const QString &name)
+{
+    QList<QNetworkInterface> interfaces =  QNetworkInterface::allInterfaces();
+    QMap <QString,QNetworkInterface> interfacesMap;
+    for(QNetworkInterface interface : interfaces){
+        interfacesMap.insert(interface.name(),interface);
+    }
+    if(interfacesMap.contains(name)){
+        QNetworkInterface interface = interfacesMap.value(name);
+        c->response()->setJsonObjectBody({
+                                             {QStringLiteral("name"),name},
+                                             {QStringLiteral("hw_addr"),interface.hardwareAddress()},
+//                                             {QStringLiteral("inet_addr"),interface.allAddresses()[0].toIPv4Address().}
+//                                             {"MTU",interface.maximumTransmissionUnit()}
+                                         });
+    }else{
+        c->response()->body()="No such interfaces";
+    }
+//    QByteArray message;
+//    QList<QNetworkInterface> interfaces =  QNetworkInterface::allInterfaces();
+//    for(QNetworkInterface interface: interfaces){
+//        message.append(interface.humanReadableName());
+    //    }
+}
+
+void Service::version(Context *c)
+{
 
 }
 
-void Service::users_uuid_GET(Context *c, const QString &uuid)
+void Service::version_GET(Context *c)
 {
-    qDebug() << Q_FUNC_INFO << uuid;
-
-       QSettings s;
-       if (s.childGroups().contains(uuid)) {
-           s.beginGroup(uuid);
-           c->response()->setJsonObjectBody({
-                                                {QStringLiteral("port"), s.value(QStringLiteral("port")).toString()}
-
-                                            }
-
-                                            /*{
-                                                {QStringLiteral("name"), s.value(QStringLiteral("name")).toString()},
-                                                {QStringLiteral("age"), s.value(QStringLiteral("age")).toInt()}
-                                            }*/);
-       } else {
-           c->response()->setJsonObjectBody({
-                                          {QStringLiteral("error"), QStringLiteral("not found")}
-                                      });
-           c->response()->setStatus(Response::NotFound);
-       }
+    QSettings s;
+    if(s.childGroups().contains("version")){
+        s.beginGroup("version");
+        c->response()->setJsonObjectBody({
+                                             {QStringLiteral("ver"),s.value("ver").toString()}
+                                         });
+    }else{
+        c->response()->body() = "Version not set";
+    }
 }
 
-void Service::users_uuid_PUT(Context *c, const QString &uuid)
+void Service::version_POST(Context *c)
 {
-    qDebug() << Q_FUNC_INFO << uuid;
     const QJsonDocument doc = c->request()->bodyData().toJsonDocument();
     const QJsonObject obj = doc.object();
-
-    QSettings s;
-    s.beginGroup(uuid);
-    s.setValue(QStringLiteral("name"), obj.value(QStringLiteral("name")).toString());
-    s.setValue(QStringLiteral("age"), obj.value(QStringLiteral("age")).toDouble());
-    s.endGroup();
-    s.sync();
-
-    if (s.status()) {
-        c->response()->setJsonObjectBody({
-                                       {QStringLiteral("status"), QStringLiteral("error")},
-                                       {QStringLiteral("error"), QStringLiteral("failed")}
-                                   });
-    } else {
-        c->response()->setJsonObjectBody({
-                                       {QStringLiteral("status"), QStringLiteral("ok")},
-                                       {QStringLiteral("uuid"), uuid}
-                                   });
-    }
-}
-
-//void Service::users_uuid_DELETE(Context *c, const QString &uuid)
-//{
-//    qDebug() << Q_FUNC_INFO << uuid;
+//    qDebug()<<"SET VERSION "<<obj.;
 //    QSettings s;
-//    bool removed = s.childGroups().contains(uuid);
-//    if (removed) {
-//        s.remove(uuid);
-//        s.sync();
-//    }
-
-//    if (!removed || s.status()) {
+//    s.beginGroup("version");
+//    s.setValue(QStringLiteral("ver"),obj.value("ver").toInt());
+//    s.endGroup();
+//    s.sync();
+//    qDebug()<<"VERSION"<<s.value("ver").toInt();
+//    if (s.status()) {
 //        c->response()->setJsonObjectBody({
 //                                       {QStringLiteral("status"), QStringLiteral("error")},
 //                                       {QStringLiteral("error"), QStringLiteral("failed")}
 //                                   });
-//    } else {
+//    }else{
 //        c->response()->setJsonObjectBody({
 //                                       {QStringLiteral("status"), QStringLiteral("ok")},
+//                                       {QStringLiteral("ver"), s.value("ver").toString()}
 //                                   });
 //    }
+
+}
+
+//void Service::version(Context *c)
+//{
+//    c->response()->body() = QByteArray::number(SERVICE_VERSION);
+
 //}
 

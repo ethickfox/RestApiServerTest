@@ -3,9 +3,10 @@
 
 #include <Cutelyst/Application>
 
-
+#include "version.h"
 #include "root.h"
 #include "service.h"
+#include "apiv1.h"
 
 using namespace Cutelyst;
 
