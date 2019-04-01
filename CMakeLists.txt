@@ -20,7 +20,7 @@ find_package(Cutelyst2Qt5 REQUIRED)
 set(CMAKE_AUTOMOC ON)
 
 # As moc files are generated in the binary dir, tell CMake
-# to always look for includes there:
+# to always look for includes there:к
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 file(GLOB_RECURSE TEMPLATES_SRC root/*)

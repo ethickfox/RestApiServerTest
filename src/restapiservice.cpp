@@ -15,7 +15,6 @@ bool RestAPIService::init()
 {
     new Root(this);
     new Service(this);
-    new ApiV1(this);
 
     return true;
 }

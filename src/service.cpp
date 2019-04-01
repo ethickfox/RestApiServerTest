@@ -15,12 +15,12 @@ void Service::index(Context *c)
     c->response()->body() = "Matched Controller::Service in Service.";
 }
 
-void Service::ports(Context *c)
+void Service::interfaces(Context *c)
 {
 
 }
 
-void Service::ports_GET(Context *c)
+void Service::interfaces_GET(Context *c)
 {
     qDebug() << Q_FUNC_INFO;
 
@@ -33,12 +33,12 @@ void Service::ports_GET(Context *c)
     c->response()->setJsonArrayBody(QJsonArray::fromStringList(message));
 }
 
-void Service::ports_uuid(Context *c, const QString &uuid)
+void Service::interfaces_uuid(Context *c, const QString &uuid)
 {
     qDebug() << Q_FUNC_INFO << uuid;
 }
 
-void Service::ports_uuid_GET(Context *c, const QString &name)
+void Service::interfaces_uuid_GET(Context *c, const QString &name)
 {
     QList<QNetworkInterface> interfaces =  QNetworkInterface::allInterfaces();
     QMap <QString,QNetworkInterface> interfacesMap;

@@ -10,7 +10,6 @@
 #include <QJsonDocument>
 #include <QNetworkInterface>
 
-#include "version.h"
 
 using namespace Cutelyst;
 
@@ -25,18 +24,18 @@ public:
     C_ATTR(index, :Path :AutoArgs)
     void index(Context *c);
 
-//ports
-    C_ATTR(ports, :Local :AutoArgs :ActionClass(REST))
-    void ports(Context *c);
+//interface
+    C_ATTR(interfaces, :Local :AutoArgs :ActionClass(REST))
+    void interfaces(Context *c);
 
-    C_ATTR(ports_GET, :Private)
-    void ports_GET(Context *c);
+    C_ATTR(interfaces_GET, :Private)
+    void interfaces_GET(Context *c);
 
-    C_ATTR(ports_uuid, :Path('ports') :AutoArgs :ActionClass(REST))
-    void ports_uuid(Context *c, const QString &uuid);
+    C_ATTR(interfaces_uuid, :Path('interfaces') :AutoArgs :ActionClass(REST))
+    void interfaces_uuid(Context *c, const QString &uuid);
 
-    C_ATTR(ports_uuid_GET, :Private)
-    void ports_uuid_GET(Context *c, const QString &uuid);
+    C_ATTR(interfaces_uuid_GET, :Private)
+    void interfaces_uuid_GET(Context *c, const QString &uuid);
 
 //version
     C_ATTR(version, :Local :AutoArgs :ActionClass(REST))
