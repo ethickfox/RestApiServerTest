@@ -1,6 +1,7 @@
 language: cpp
 before_install:
   - sudo apt-get update
+  - sudo apt-get -y install cmake
   - sudo apt install qt5-default
   - sudo apt-get install qtbase5-dev
   - sudo apt install git cmake g++ qtbase5-dev clearsilver-dev libgrantlee5-dev uuid-dev libcap-dev libzmq3-dev
@@ -9,3 +10,4 @@ before_install:
   - sudo apt install doxygen
   - cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DPLUGIN_VIEW_CLEARSILVER=on -DPLUGIN_VIEW_GRANTLEE=on -DPLUGIN_VIEW_EMAIL=off
   - sudo make install
+  

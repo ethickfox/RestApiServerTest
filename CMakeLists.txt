@@ -30,7 +30,7 @@ add_subdirectory(src)
 
 
 #add_executable(RestAPIService service.cpp)
-#add_test(RestAPIService restapiservice)
+add_test(RestAPIService restapiservice)
 #target_link_libraries(RestAPIService Qt5::Test)
 
 
