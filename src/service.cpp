@@ -26,6 +26,7 @@ void Service::interfaces_GET(Context *c)
 
     QStringList message;
     QList<QNetworkInterface> interfaces =  QNetworkInterface::allInterfaces();
+    QVERIFY(interfaces.count());
 
     for(QNetworkInterface interface: interfaces){
         message.append(interface.humanReadableName());

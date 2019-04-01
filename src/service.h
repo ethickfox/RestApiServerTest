@@ -9,13 +9,17 @@
 #include <QJsonObject>
 #include <QJsonDocument>
 #include <QNetworkInterface>
+#include <QtTest/QtTest>
 
 
 using namespace Cutelyst;
 
+
 class Service : public Controller
 {
     Q_OBJECT
+    QTEST_MAIN(Service)
+
 public:
     explicit Service(QObject *parent = nullptr);
     ~Service();
@@ -47,6 +51,7 @@ public:
     C_ATTR(users_POST, :Private)
     void version_POST(Context *c);
 };
+//#include "service.moc"
 
 #endif //SERVICE_H
 
