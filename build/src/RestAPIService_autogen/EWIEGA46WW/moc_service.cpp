@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_Service_t {
     QByteArrayData data[18];
-    char stringdata0[217];
+    char stringdata0[242];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,28 +34,28 @@ static const qt_meta_stringdata_Service_t qt_meta_stringdata_Service = {
 QT_MOC_LITERAL(0, 0, 7), // "Service"
 QT_MOC_LITERAL(1, 8, 5), // "index"
 QT_MOC_LITERAL(2, 14, 14), // ":Path:AutoArgs"
-QT_MOC_LITERAL(3, 29, 5), // "ports"
-QT_MOC_LITERAL(4, 35, 33), // ":Local:AutoArgs:ActionClass(R..."
-QT_MOC_LITERAL(5, 69, 9), // "ports_GET"
-QT_MOC_LITERAL(6, 79, 8), // ":Private"
-QT_MOC_LITERAL(7, 88, 10), // "ports_uuid"
-QT_MOC_LITERAL(8, 99, 41), // ":Path('ports'):AutoArgs:Actio..."
-QT_MOC_LITERAL(9, 141, 14), // "ports_uuid_GET"
-QT_MOC_LITERAL(10, 156, 7), // "version"
-QT_MOC_LITERAL(11, 164, 11), // "version_GET"
-QT_MOC_LITERAL(12, 176, 10), // "users_POST"
-QT_MOC_LITERAL(13, 187, 0), // ""
-QT_MOC_LITERAL(14, 188, 8), // "Context*"
-QT_MOC_LITERAL(15, 197, 1), // "c"
-QT_MOC_LITERAL(16, 199, 4), // "uuid"
-QT_MOC_LITERAL(17, 204, 12) // "version_POST"
+QT_MOC_LITERAL(3, 29, 10), // "interfaces"
+QT_MOC_LITERAL(4, 40, 33), // ":Local:AutoArgs:ActionClass(R..."
+QT_MOC_LITERAL(5, 74, 14), // "interfaces_GET"
+QT_MOC_LITERAL(6, 89, 8), // ":Private"
+QT_MOC_LITERAL(7, 98, 15), // "interfaces_uuid"
+QT_MOC_LITERAL(8, 114, 46), // ":Path('interfaces'):AutoArgs:..."
+QT_MOC_LITERAL(9, 161, 19), // "interfaces_uuid_GET"
+QT_MOC_LITERAL(10, 181, 7), // "version"
+QT_MOC_LITERAL(11, 189, 11), // "version_GET"
+QT_MOC_LITERAL(12, 201, 10), // "users_POST"
+QT_MOC_LITERAL(13, 212, 0), // ""
+QT_MOC_LITERAL(14, 213, 8), // "Context*"
+QT_MOC_LITERAL(15, 222, 1), // "c"
+QT_MOC_LITERAL(16, 224, 4), // "uuid"
+QT_MOC_LITERAL(17, 229, 12) // "version_POST"
 
     },
-    "Service\0index\0:Path:AutoArgs\0ports\0"
+    "Service\0index\0:Path:AutoArgs\0interfaces\0"
     ":Local:AutoArgs:ActionClass(REST)\0"
-    "ports_GET\0:Private\0ports_uuid\0"
-    ":Path('ports'):AutoArgs:ActionClass(REST)\0"
-    "ports_uuid_GET\0version\0version_GET\0"
+    "interfaces_GET\0:Private\0interfaces_uuid\0"
+    ":Path('interfaces'):AutoArgs:ActionClass(REST)\0"
+    "interfaces_uuid_GET\0version\0version_GET\0"
     "users_POST\0\0Context*\0c\0uuid\0version_POST"
 };
 #undef QT_MOC_LITERAL
@@ -113,10 +113,10 @@ void Service::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->index((*reinterpret_cast< Context*(*)>(_a[1]))); break;
-        case 1: _t->ports((*reinterpret_cast< Context*(*)>(_a[1]))); break;
-        case 2: _t->ports_GET((*reinterpret_cast< Context*(*)>(_a[1]))); break;
-        case 3: _t->ports_uuid((*reinterpret_cast< Context*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
-        case 4: _t->ports_uuid_GET((*reinterpret_cast< Context*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 1: _t->interfaces((*reinterpret_cast< Context*(*)>(_a[1]))); break;
+        case 2: _t->interfaces_GET((*reinterpret_cast< Context*(*)>(_a[1]))); break;
+        case 3: _t->interfaces_uuid((*reinterpret_cast< Context*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 4: _t->interfaces_uuid_GET((*reinterpret_cast< Context*(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
         case 5: _t->version((*reinterpret_cast< Context*(*)>(_a[1]))); break;
         case 6: _t->version_GET((*reinterpret_cast< Context*(*)>(_a[1]))); break;
         case 7: _t->version_POST((*reinterpret_cast< Context*(*)>(_a[1]))); break;

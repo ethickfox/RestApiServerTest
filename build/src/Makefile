@@ -167,33 +167,6 @@ RestAPIService_autogen/mocs_compilation.cpp.s:
 	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/RestAPIService_autogen/mocs_compilation.cpp.s
 .PHONY : RestAPIService_autogen/mocs_compilation.cpp.s
 
-apiv1.o: apiv1.cpp.o
-
-.PHONY : apiv1.o
-
-# target to build an object file
-apiv1.cpp.o:
-	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.o
-.PHONY : apiv1.cpp.o
-
-apiv1.i: apiv1.cpp.i
-
-.PHONY : apiv1.i
-
-# target to preprocess a source file
-apiv1.cpp.i:
-	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.i
-.PHONY : apiv1.cpp.i
-
-apiv1.s: apiv1.cpp.s
-
-.PHONY : apiv1.s
-
-# target to generate assembly for a file
-apiv1.cpp.s:
-	cd /home/ethickfox/Документы/RestApiServerTest/build && $(MAKE) -f src/CMakeFiles/RestAPIService.dir/build.make src/CMakeFiles/RestAPIService.dir/apiv1.cpp.s
-.PHONY : apiv1.cpp.s
-
 restapiservice.o: restapiservice.cpp.o
 
 .PHONY : restapiservice.o
@@ -288,9 +261,6 @@ help:
 	@echo "... RestAPIService_autogen/mocs_compilation.o"
 	@echo "... RestAPIService_autogen/mocs_compilation.i"
 	@echo "... RestAPIService_autogen/mocs_compilation.s"
-	@echo "... apiv1.o"
-	@echo "... apiv1.i"
-	@echo "... apiv1.s"
 	@echo "... restapiservice.o"
 	@echo "... restapiservice.i"
 	@echo "... restapiservice.s"

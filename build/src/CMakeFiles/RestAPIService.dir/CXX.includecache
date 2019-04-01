@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_apiv1.cpp
-../../../../src/apiv1.h
-/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
 /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_restapiservice.cpp
 ../../../../src/restapiservice.h
 /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.h
@@ -41,34 +33,12 @@ QtCore/qmetatype.h
 -
 
 /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_apiv1.cpp
-/home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_apiv1.cpp
 EWIEGA46WW/moc_restapiservice.cpp
 /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_restapiservice.cpp
 EWIEGA46WW/moc_root.cpp
 /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_root.cpp
 EWIEGA46WW/moc_service.cpp
 /home/ethickfox/Документы/RestApiServerTest/build/src/RestAPIService_autogen/EWIEGA46WW/moc_service.cpp
-
-/home/ethickfox/Документы/RestApiServerTest/src/apiv1.cpp
-apiv1.h
-/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
-QJsonDocument
--
-QJsonObject
--
-QJsonArray
--
-QSettings
--
-QUuid
--
-QDebug
--
-
-/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
-Cutelyst/Controller
--
 
 /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.cpp
 restapiservice.h
@@ -77,14 +47,10 @@ restapiservice.h
 /home/ethickfox/Документы/RestApiServerTest/src/restapiservice.h
 Cutelyst/Application
 -
-version.h
-/home/ethickfox/Документы/RestApiServerTest/src/version.h
 root.h
 /home/ethickfox/Документы/RestApiServerTest/src/root.h
 service.h
 /home/ethickfox/Документы/RestApiServerTest/src/service.h
-apiv1.h
-/home/ethickfox/Документы/RestApiServerTest/src/apiv1.h
 
 /home/ethickfox/Документы/RestApiServerTest/src/root.cpp
 root.h
@@ -119,10 +85,6 @@ QJsonDocument
 -
 QNetworkInterface
 -
-version.h
-/home/ethickfox/Документы/RestApiServerTest/src/version.h
-
-/home/ethickfox/Документы/RestApiServerTest/src/version.h
 
 /usr/include/cutelyst2-qt5/Cutelyst/Application
 application.h

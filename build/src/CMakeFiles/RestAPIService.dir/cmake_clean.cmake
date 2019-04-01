@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "RestAPIService_autogen"
   "CMakeFiles/RestAPIService_autogen.dir/AutogenOldSettings.cmake"
-  "CMakeFiles/RestAPIService.dir/apiv1.cpp.o"
   "CMakeFiles/RestAPIService.dir/restapiservice.cpp.o"
   "CMakeFiles/RestAPIService.dir/root.cpp.o"
   "CMakeFiles/RestAPIService.dir/service.cpp.o"
