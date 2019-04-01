@@ -1,6 +1,8 @@
 language: cpp
 before_install:
   - sudo apt-get update
+  - sudo apt install qt5-default
+  - sudo apt-get install qtbase5-dev
   - sudo apt install git cmake g++ qtbase5-dev clearsilver-dev libgrantlee5-dev uuid-dev libcap-dev libzmq3-dev
   - git clone https://github.com/cutelyst/cutelyst.git
   - cd cutelyst; mkdir build && cd build
