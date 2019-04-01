@@ -2,9 +2,10 @@ language: cpp
 before_install:
   - sudo apt-get update
   - sudo apt install git
-  - sudo apt install cmake
-  - sudo apt install qt5-default qtbase5-dev
   - sudo apt install g++
+  - sudo apt install cmake
+  - sudo apt install qt5-default
+  - sudo apt install qtbase5-dev
   - sudo apt install clearsilver-dev
   - sudo apt install libgrantlee5-dev
   - sudo apt install uuid-dev
