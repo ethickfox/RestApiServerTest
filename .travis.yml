@@ -1,7 +1,14 @@
 language: cpp
 before_install:
   - sudo apt-get update
-  - sudo apt install git cmake g++ qt5-default qtbase5-dev  clearsilver-dev libgrantlee5-dev uuid-dev
+  - sudo apt install git
+  - sudo apt install cmake
+  - sudo apt install qt5-default qtbase5-dev
+  - sudo apt install g++
+  - sudo apt install clearsilver-dev
+  - sudo apt install libgrantlee5-dev
+  - sudo apt install uuid-dev
+  - sudo apt install libcap-dev libzmq3-dev
   - git clone https://github.com/cutelyst/cutelyst.git
   - cd cutelyst; mkdir build && cd build
   - sudo apt install doxygen
