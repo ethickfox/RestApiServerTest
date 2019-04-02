@@ -18,7 +18,7 @@ using namespace Cutelyst;
 class Service : public Controller
 {
     Q_OBJECT
-    QTEST_MAIN(Service)
+//    QTEST_MAIN(Service)
 
 public:
     explicit Service(QObject *parent = nullptr);
